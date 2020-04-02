@@ -16,8 +16,22 @@
         ["submodule"],
         ["create", "merge", "use"],
         {
-            "create": ["uisources"],
+            "create": ["*"],
             "merge": ["*"],
+            "use": ["*"]
+        }
+    ],
+    "pwa-sources": [
+        ["submodule"],
+        ["use"],
+        {
+            "use": ["*"]
+        }
+    ],
+    "pwa-content": [
+        ["directory"],
+        ["use"],
+        {
             "use": ["*"]
         }
     ],
