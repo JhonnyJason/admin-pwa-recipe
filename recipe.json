@@ -16,7 +16,7 @@
         ["submodule"],
         ["create", "merge", "use"],
         {
-            "create": ["*"],
+            "create": ["admin-pwa-sources"],
             "merge": ["*"],
             "use": ["*"]
         }
